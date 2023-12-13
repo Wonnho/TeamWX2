@@ -14,6 +14,7 @@ public class Calculator {
         System.out.print("사용할 연산자를 입력하세요 (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
 
+
         double result;
 
         switch (operator) {
@@ -41,7 +42,10 @@ public class Calculator {
 
         System.out.println("결과: " + result);
 
-        scanner.close();
+    "조수호 추가작업"    
+	scanner.close();
     }
+
+
 }
 
